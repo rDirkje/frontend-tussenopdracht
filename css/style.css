@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+body {
+    background-image: url(background.jpeg);
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    border: solid;
+    border-color: #fb6f92;
+    border-width: 1px;
+    background-color: #fff0f3;
+}
+
+#navbar {
+    background-color: #ffccd5;
+    display: flex;
+    padding: 10px 50px;
+    gap: 20px;
+}
+
+.navbar-logo {
+    border-radius: 10px;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+.navlinks {
+    text-decoration: none;
+    color: #fb6f92;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #fff0f3;
+    background-color: #fff0f3;
+    padding: 5px;
+}
+
+.navlinks:hover {
+    color: #ffccd5;
+    background-color: #fb6f92;
+    border: solid;
+    border-radius: 10px;
+    border-color: #fb6f92;
+    padding: 5px;
+}
+
+header {
+    color: #fb6f92;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 80px 80px 5px 80px;
+    font-size: 26px;
+}
+
+.main-product {
+    display: flex;
+    margin: 5px 80px 80px 80px;
+    gap: 40px;
+}
+
+.BBs-rims {
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #fb6f92;
+    font-size: 34px;
+}
+
+p {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #fb6f92;
+}
+
+.button {
+    border: solid;
+    border-radius: 10px;
+    border-color: #ffccd5;
+    background-color: #ffccd5;
+    padding: 5px 50px;
+    text-decoration: none;
+    color: #fb6f92;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16px;
+}
+
+.button:hover {
+    border: solid;
+    border-radius: 10px;
+    border-color: #fb6f92;
+    background-color: #fb6f92;
+    padding: 5px 50px;
+    color: #ffccd5;
+}
+
+.description {
+    display: flex;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #fb6f92;
+    padding: 80px;
+    gap: 30px;
+}
+
+.voordeelnadeel {
+    background-color: #ffccd5;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.related-items {
+    background-color: #ffccd5;
+    text-align: center;
+    margin: 0;
+    padding-top: 80px;
+}
+
+.related {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffccd5;
+    padding: 30px 80px 80px 80px;
+    text-align: center;
+}
+
+.recommended {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.wheel {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+
+.lego-set {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+
+.tires {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+
+h3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #fb6f92;
+}
+
+footer {
+    background-color: #fb6f92;
+    padding: 40px;
+    text-align: center;
+}
+
+.footerlinks {
+    color: #fff0f3;
+    padding: 0px 10px;
+    text-decoration: none;
+}
