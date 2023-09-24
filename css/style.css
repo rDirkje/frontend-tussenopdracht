@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    width: 1000px;
+    width: 1200px;
     margin: auto;
     border: solid;
     border-color: #fb6f92;
@@ -126,6 +126,7 @@ p {
 .related {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     background-color: #ffccd5;
     padding: 30px 80px 80px 80px;
     text-align: center;
